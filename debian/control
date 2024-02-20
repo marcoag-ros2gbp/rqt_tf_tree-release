@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-tf-tree
+Section: misc
+Priority: optional
+Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-mock <!nocheck>, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_tf_tree
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-tf-tree
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-rolling-python-qt-binding (>= 0.2.19), ros-rolling-qt-dotgraph, ros-rolling-rclpy, ros-rolling-rqt-graph, ros-rolling-rqt-gui, ros-rolling-rqt-gui-py, ros-rolling-tf2-msgs, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.

@@ -1,0 +1,277 @@
+ros-rolling-rqt-tf-tree (1.0.4-3noble) noble; urgency=high
+
+  * fixed error in LICENSE
+  * add LICENSE file
+  * add maintainer
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 25 Aug 2022 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (1.0.3-3noble) noble; urgency=high
+
+  * fix breaking rqt_tree and update script installation. chg yaml full_load to safe_load (#33 <https://github.com/ros-visualization/rqt_tf_tree/issues/33>)
+  * update maintainers
+  * Contributors: Mabel Zhang, youliangtan
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 12 Nov 2021 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (1.0.2-3noble) noble; urgency=high
+
+  * fix shebang of script to use Python 3 (#18 <https://github.com/ros-visualization/rqt_tf_tree/issues/18>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 04 Feb 2020 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (1.0.1-3noble) noble; urgency=high
+
+  * remove unused dependencies (#14 <https://github.com/ros-visualization/rqt_tf_tree/issues/14>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 10 Jan 2020 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (1.0.0-3noble) noble; urgency=high
+
+  * port package to ROS 2 (#13 <https://github.com/ros-visualization/rqt_tf_tree/issues/13>)
+  * minor cleanup (#12 <https://github.com/ros-visualization/rqt_tf_tree/issues/12>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 20 Nov 2019 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.6.0-3noble) noble; urgency=high
+
+  * [capability] add button for clearing the TF buffer #9 <https://github.com/ros-visualization/rqt_tf_tree/issues/9> from christian-rauch/clear_tf_buffer
+  * [maintenance] Integrate an existing testcase upon build by Catkin. #5 <https://github.com/ros-visualization/rqt_tf_tree/issues/5>
+  * Contributors: Christian Rauch, Isaac I.Y. Saito, Peter Han
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 03 Feb 2019 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.8-3noble) noble; urgency=high
+
+  * [fix] child_frame_id format #6 <https://github.com/ros-visualization/rqt_tf_tree/issues/6>
+  * Update maintainer
+  * Contributors: Dirk Thomas, Isaac I.Y. Saito, Peter Han
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 24 Jul 2017 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.7-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 27 Apr 2017 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.6-3noble) noble; urgency=high
+
+  * use Python 3 compatible syntax (#121 <https://github.com/ros-visualization/rqt_robot_plugins/pull/121>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 24 Jan 2017 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.5-3noble) noble; urgency=high
+
+  * fix tf parent to always convert to string (#113 <https://github.com/ros-visualization/rqt_robot_plugins/pull/113>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 02 Nov 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.4-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 19 Sep 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.3-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 16 May 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.2-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 29 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.1-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 28 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.5.0-3noble) noble; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#101 <https://github.com/ros-visualization/rqt_robot_plugins/pull/101>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 27 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.4.3-3noble) noble; urgency=high
+
+  * use proper icon for images
+  * Contributors: Vincent Rabaud
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 08 Mar 2016 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.4.2-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 24 Jul 2015 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.4.1-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 30 Apr 2015 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.4.0-3noble) noble; urgency=high
+
+  * update script to use full plugin name
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 05 Nov 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.7-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 18 Aug 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.6-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 11 Jul 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.5-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 02 Jun 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.4-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 07 May 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.3-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 28 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.2-3noble) noble; urgency=high
+
+  * add groups for rqt plugins (ros-visualization/rqt_common_plugins#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 08 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.1-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.3.0-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 28 Aug 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.16-3noble) noble; urgency=high
+
+  * First public release into Hydro
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 09 Jul 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.15-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 25 Apr 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.14-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 12 Apr 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.13-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 09 Apr 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.12-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 06 Apr 2013 18:22:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.11-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 06 Apr 2013 18:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.10-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 04 Apr 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.9-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 07 Mar 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.8-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 11 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.7-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 23 Dec 2012 15:58:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.6-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 23 Dec 2012 01:57:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.5-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 21 Dec 2012 19:11:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.4-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 21 Dec 2012 01:13:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.3-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 21 Dec 2012 00:24:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.2-3noble) noble; urgency=high
+
+  * Disable dependency to tf2 (that's not building) for now
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 18:29:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.1-3noble) noble; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 17:47:00 -0000
+
+ros-rolling-rqt-tf-tree (0.2.0-3noble) noble; urgency=high
+
+  * rqt_tf_tree plugin disabled until tf2 is catkinized
+  * catkinizing
+  * first public release for Groovy
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 17:39:00 -0000
+
+
